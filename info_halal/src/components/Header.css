@@ -1,0 +1,27 @@
+.column {
+  flex: 50%;
+  padding: 30px;
+  float:left;  
+  max-width: 50%;
+  max-height: 10%;
+}
+  .row{
+    display: flex;
+    padding:20px;
+    width: 100%;
+    margin : 0 auto;
+  }
+  .column img{
+    height :100px;
+    max-height: 100%;
+    position:relative;
+    left:100px
+    
+  }
+  .column1 img{
+    height :180px;
+    width: 250px;
+    max-width: 100%;
+    position:relative;
+    left:550px
+  }

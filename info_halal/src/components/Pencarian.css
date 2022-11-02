@@ -1,0 +1,18 @@
+.box{
+    color:white;
+    background-color: #670075;
+    /* font-size: 12pt; */
+    font-weight: 400;
+    width: 100%;
+    min-height: 60px;
+
+    position: inherit;
+}
+.sertif{
+    padding: 1px;
+    justify-content: center;
+    margin-top:auto;
+    margin-bottom:auto;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
