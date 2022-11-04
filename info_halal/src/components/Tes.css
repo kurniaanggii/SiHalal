@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.body-container{
+    /* background-image: url(../images/background_1.png);
+ background-repeat: no-repeat;
+ height: 100vh;
+ float:right; */
+ min-height: 100vh;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.column {
+    flex: 50%;
+    padding: 30px;
+    float:left;  
+    max-width: 50%;
+    max-height: 10%;
+  }
+    .row{
+      display: flex;
+      padding:20px;
+      width: 100%;
+      margin : 0 auto;
+    }
+    .column img{
+      height :60px;
+      max-height: 100%;
+      position:relative;
+      left:10px
+      
+    }
+    .column1 img{
+      height :140px;
+      width: 170px;
+      max-width: 100%;
+      position:relative;
+      left:250px
+    }
+    .main-footer{
+        color:white;
+        background-color: #670075;
+        /* font-size: 12pt; */
+        font-weight: 400;
+        width: 100%;
+        min-height: 60px;
+    
+        position: absolute;
+    }
+    
+    .col1{
+        padding: 1px;
+        justify-content: center;
+        margin-top:auto;
+        margin-bottom:auto;
+        text-align: center;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+/* section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+section.right-side{
+ background-image: url(../images/background_1.png);
+ background-repeat: no-repeat;
+ height: 100vh;
+ float:right;
+ margin-left: 40%;
+ 
+}
+
+section.left-side{
+    margin-top: 25%;
+}
+
+.card-form{
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+width: 100%;
+/* display: grid; */
+/* text-align: justify; */
+/* grid-template-columns: 1fr 1fr; */
+margin-left: -80%;
+margin-top:70%;
+flex-direction: column;
+background-color: white;
+padding:5%;
+font-size: small;
+}
+
+.filter-box{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+
+}
+.filter-box input{
+    margin-top: 2%;
+}
+
+.left-side{
+    position: relative;
+}
+.teks1 {
+    text-align: justify;
+    margin-left: 8%;
+}
+h1{
+    margin-left: 8%;
+    margin-top: 20%;
+}
+.color{
+    color:#3DC3A3;
+    justify-content: right;
+}
+.cari{
+    background-color:#3DC3A3;
+    border:white;
+    margin-top: 5%;
+}

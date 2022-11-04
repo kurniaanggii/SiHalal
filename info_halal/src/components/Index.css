@@ -1,6 +1,16 @@
-.bg {
-    background-attachment: fixed;
-    background-position :470px 200px;
-    margin-right: auto;
-    background-size: cover;
+h1 {
+  color:#670075;
+}
+.kanan{
+ float:right;
+ background-image: url(../images/background_1.png);
+ background-repeat: no-repeat;
+
+
+}
+p.teks1{
+ float:left;
+ color:#3DC3A3;
+
+
 }

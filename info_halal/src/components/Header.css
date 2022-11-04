@@ -8,20 +8,20 @@
   .row{
     display: flex;
     padding:20px;
-    width: 100%;
+    width: 50%;
     margin : 0 auto;
   }
   .column img{
-    height :100px;
+    height :80px;
     max-height: 100%;
     position:relative;
-    left:100px
+    left:50px
     
   }
   .column1 img{
-    height :180px;
-    width: 250px;
+    height :100px;
+    width: 200px;
     max-width: 100%;
     position:relative;
-    left:550px
+    left:400px
   }

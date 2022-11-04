@@ -4,8 +4,9 @@
     /* font-size: 12pt; */
     font-weight: 400;
     width: 100%;
-    min-height: 60px;
-
+    min-height: 30px;
+    background-position-x: 900px;
+    background-position:80px;
     position: inherit;
 }
 .sertif{
